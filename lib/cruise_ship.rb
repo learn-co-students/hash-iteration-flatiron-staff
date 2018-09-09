@@ -7,5 +7,5 @@ passengers = {
 }
 
 def select_winner(p)
-  p.suite_a && p.suite_a[0] == 'A' ? p.suite_a ? ""
+  p.suite_a && p.suite_a[0] == 'A' ? p.suite_a : ""
 end
